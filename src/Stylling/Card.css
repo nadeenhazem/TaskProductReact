@@ -1,0 +1,39 @@
+.Card-section{
+    text-align: center;
+}
+.Card{
+    margin-left: 2%;
+    width: 80%;
+    text-align: left;
+   border-style: none !important;
+   margin-bottom: 15%;
+}
+.Card-img{
+    margin: 2% 1%;
+    height: 25vh;
+}
+.Card-Title{
+    color: rgb(29, 147, 194);
+    display: inline;
+    margin-left: 1%;
+}
+.Card-price{
+    font-size: larger;
+    display: inline;
+    margin-left: 1%;
+}
+.Card-btn{
+    color: #000;
+    display: inline;
+    float: right;
+    border-style: none;
+    border-radius: 8px;
+    padding: 2% 5%;
+    margin-right: 5%;
+    font-size: larger;
+}
+.Card-btn:hover{
+    color: #fff;
+    background-color:rgb(29, 147, 194);
+    
+}
