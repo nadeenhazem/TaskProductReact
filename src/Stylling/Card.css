@@ -13,7 +13,7 @@
     height: 25vh;
 }
 .Card-Title{
-    color: rgb(29, 147, 194);
+    color: #029FAE;
     display: inline;
     margin-left: 1%;
 }
@@ -34,6 +34,6 @@
 }
 .Card-btn:hover{
     color: #fff;
-    background-color:rgb(29, 147, 194);
+    background-color:#029FAE;
     
 }

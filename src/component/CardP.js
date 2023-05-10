@@ -14,16 +14,19 @@ function CardP(props) {
 
     return (
         <section className='Card-section'>
+
             <div className="container py-5">
+            <h1 style={{marginBottom:'5%'}}>products</h1>
+
                 <div className="row d-flex justify-content-center "  >
-                    <h1>products</h1>
+                    
                     <div className="row">
                         {
                             AllData.products == null ? <div style={{margin:'auto',marginTop:'20%'}}>
                                 <Spinner /> </div>:
                                 AllData.products.map((item) => {
                                     return (
-                                        <div className=" col-md-3 col-lg-3">
+                                        <div className=" col-md-3 col-lg-3" key={item.id}>
 
                                             <div className='card Card'>
                                                 <img src={item.images[0]} alt='product' className='Card-img' />
